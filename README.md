@@ -1,4 +1,4 @@
-# logica_de_programacion
+# logica-de-programacion
 Repositorio de archivos del curso de Lógica de Programación
 
 Parte 1
