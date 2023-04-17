@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function mostrar(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    mostrar("Considerando 10 y 20");
+
+    //sumar dos numeros
+    function sumarDosNumeros(numero1, numero2) {
+        mostrar("La suma de los dos números es : " + (numero1 + numero2) );
+    }
+
+    sumarDosNumeros(10, 20);
+
+
+
+    //operar entre dos funciones
+
+    function a(numero1, numero2) {
+        return numero1 + numero2;
+    }
+
+
+
+    function b(numero1, numero2) {
+        return numero1 / numero2;
+    }
+
+    var resultado = a(10,20) + b(30,2);
+
+    mostrar("La división de 30 entre 2 es: 15");
+    mostrar("Y la sumatoria de ambos resultados es: " + resultado);
+
+    mostrar("Ahora, multiplicaremos los dos números capturados:");
+
+    //interactua con el usuario y multiplica dos numeros
+
+    var numero1 = prompt("Digite el primer número");
+    var numero2 = prompt("Digite el segundo número");
+
+    mostrar("El valor de " + numero1 + " veces " + numero2 + " es: " + (numero1 * numero2));
+
+</script>
