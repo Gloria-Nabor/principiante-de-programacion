@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA IMPRIMIR EDADES</h1>
+<script>
+    function saltarLinea() {
+         // saltando cinco lineas
+        document.write("<br>");     
+        document.write("<br>");    
+        document.write("<br>");   
+        document.write("<hr>");    
+        document.write("<br>");    
+        document.write("<br>");   
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+        saltarLinea();
+    }
+    var anho = 2025;
+    
+    imprimir("Hola amigos");
+    
+    // este código calcula las edades de Juan, Pedro y Carlos
+
+    imprimir("En el año 2025...");
+    imprimir("Juan tiene: " + (anho-2000) + " años");
+    imprimir("Pedro tiene: " + (anho-1995) + " años");
+    
+    anho = 2030
+
+    imprimir("En el año 2030...");
+    imprimir("Carlos tiene: " + (anho-2005) + " años");
+    
+</script>
