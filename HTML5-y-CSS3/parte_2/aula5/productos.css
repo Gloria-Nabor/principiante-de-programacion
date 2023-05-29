@@ -34,20 +34,29 @@ nav a{
     padding: 50px;
 }
 
-
 .productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 30px 20px;          /*en estructura cajas el borde está entre padding y el margen*/  
     box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-
+/*  border-color: #000000;       borde color negro
+    border-width: 2px;           ancho del borde
+    border-style: solid;         borde en línea
+    border-style: dashed;        borde en linea discontinua
+    border-style: dotted;        borde punteado 
+    border-top-width: 10px;      ancho de borde superior
+    border-top-left-radius: 10px;               personalizar cada esquina
+    border-top-right-radius: 25px;  
+    border-botton-right-radius: 40px;  
+    border-botton-left-radius: 50px;
+    border-radius: 10px 25px 40px 50px;          simplificada sup izq sup der inf der inf izq
+*/
+    border: 2px solid #000000;  /*declara simplificadamente propiedades ancho de borde, estilo, color*/
+    border-radius: 10px;          /*radio de esquina redondeada*/
 }
-
 
 .productos h2{
     font-size: 30px;

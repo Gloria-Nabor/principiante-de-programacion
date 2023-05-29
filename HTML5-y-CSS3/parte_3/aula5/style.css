@@ -117,22 +117,24 @@ form label, form legend{
     margin:20px 0;
 }
 
-.enviar{
+.enviar{                    /*selector de clase enviar*/
     width: 40%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
     color:white;
     background: orange;
-    border:none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor:pointer;
+    border:none;                /*quita cortorno de línea*/
+    border-radius: 5px;         /*sin borde de esquinas, redondeandolas*/
+    transition: 1s all;         /*mayor percepción visual, lenta, transición de posicionamiento del mouse*/
+    cursor:pointer;             /*cambia cursor a manita*/
 }
 
-.enviar:hover{
+.enviar:hover{                  /*destaca o estiliza el boton al posicionarse con el mouse por encima*/
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.2);      /*scake cambia tamaño proporcionalmente yy transform comportamiento del boton o elemento*/
+/*  transform: rotate(70deg);   gira 70 grados, prioriza última transform*/    
+/*  transform: scale(1.2) rotate(70deg);   aumenta tamaño y gira 70 grados, realiza ambos transform*/    
 }
 
 

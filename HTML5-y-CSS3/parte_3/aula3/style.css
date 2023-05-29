@@ -100,11 +100,20 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form p{                     /*aplica estilo a dos etiquetas*/
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
+/*
+form input, form textarea{              aplicar estilos a varios selectores, se cambia a selector input-padron
+    display: block;                     
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+*/
 
 .input-padron{
     display: block;
@@ -113,6 +122,30 @@ form label, form p{
     width: 50%;
 }
 
-.checkbox{
+
+
+.checkbox{                              /*clase de etiqueta checkbox*/
     margin:20px 0;
 }
+
+/*
+p{
+    color: red;                         test de jerarquia de estilo inline, jerarquia, id, class, etiqueta
+}    
+
+form p{
+    color: blue;
+}
+
+.test{
+    color: yellow;
+}
+
+p.test{
+    color: orange;
+}
+
+#test{
+    color: pink;
+}
+*/

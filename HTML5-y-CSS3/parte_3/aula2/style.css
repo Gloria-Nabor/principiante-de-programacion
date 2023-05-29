@@ -91,8 +91,8 @@ footer{
     margin:20px;
 }
 
-main{
-    width: 940px;
+main{                   
+    width: 940px;       /*centrar elementos de formulario*/
     margin: 0 auto;    
 }
 
@@ -100,15 +100,16 @@ form{
     margin: 40px 0;
 }
 
-form label{
-    display: block;
+form label{             /*estilo formulario*/
+    display: block;     /*cambia el default display inline, haciendo salto de linea*/
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 0 0 10px;   /*margen sin espacio sup der e inf de 10px*/
 }
 
 form input{
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+    display: block;     /*cambia el default inline*/
+    margin: 0 0 20px;   /*margen sin espacio sup der e inf de 20px*/
+    padding: 10px 25px; /*aumenta el tamaño de la caja a lo alto*/
+    width: 50%;         /*aumenta el tamaño de la caja a lo ancho*/
+ 
 }

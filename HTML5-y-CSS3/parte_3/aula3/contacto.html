@@ -23,7 +23,7 @@
         <main>
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron">
+                <input type="text" id="nombreapellido" class="input-padron">             <!--asociar clase input-padron para no usar selector de etiquetas para aplicar estilo-->
 
                 <label for="correoelectronico">Correo Electrónico</label>
                 <input type="text" id="correoelectronico" class="input-padron">
@@ -32,13 +32,18 @@
                 <input type="text" id="telefono" class="input-padron">
 
                 <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>     <!--etiqueta para caja de entrada de texto, más de una fila, personalizar tamaño, 70x10-->
                 
                 <div>
-                    <p>Cómo le gustaría que lo contactemos?</p>
+            <!--    <p class="text" id="text"> style="color: purple">¿Cómo le gustaría que lo contactemos?</p>         test de jerarquia, detalle en CSS -->
 
-                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
-                    
+                    <p>¿Cómo le gustaría que lo contactemos?</p>         <!--etiqueta name "contacto" permite agrupar varios input tipo radio, impide sea seleccionado más de uno-->
+
+            <!--    <label for="radio-email">Email</label>  -->          <!--input tipo radio, activa el boton selector-->
+            <!--    <input type="radio" name="contacto" value="email" id="radio-email"> -->     <!--se mueve entre la entiqueta label-->
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>   <!-- -->
+
                     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
                     
                     <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
@@ -46,15 +51,15 @@
                 </div>
                
                 <div>
-                    <p>En cuál horario prefiere ser atendido?</p>
-                    <select>
+                    <p>¿En cuál horario prefiere ser atendido?</p>      <!--etiqueta de parrafo-->
+                    <select>                                            <!--etiqueta select para lista de opciones desplegable-->
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
                 </div>
                 
-                <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>                
+                <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>   <!--etiqueta y clase para casilla check-->
                 
                 <input type="submit" value="Enviar formulario">
 

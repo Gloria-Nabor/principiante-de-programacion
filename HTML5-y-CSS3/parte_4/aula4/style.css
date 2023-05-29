@@ -150,9 +150,28 @@ td,th{
 }
 
 /*Aquí inicia el CSS para nuestra home*/
+
 .banner{
     width: 100%;
 }
+
+/*
+main > p{               Selector >, para acceder a los hijos de determinado elemento, selecciona a todos los p parrafos hijos dentro de main
+    background: red;
+}
+
+img + p{                Selector +, para acceder al primer hermano de determinado elemento, selecciona al primer p después de una img
+    background: yellow;
+}
+
+img ~ p{                Selector ~, para acceder a todos los hermanos de determinado elemento, accede a todos los p después de una img
+    background: green;
+}
+
+.principal p:not("mision){     Selector not, acceder a los elementos con excepción de algunos, selecciona a todos los p dentro de main excepto el p con id mision
+    background: orange;
+}
+*/
 
 .principal{
     padding: 3em 0;
@@ -182,6 +201,10 @@ td,th{
 
 .utensilios{
     width: 120px;
+  /*
+    width: 40%;
+    width: calc(40% - (26px));  propiedad calc, hace operaciones matemáticas, útil para mantener proporción diversos dispositivos
+  */  
     float:left;
     margin: 0 20px 20px 0;
 }

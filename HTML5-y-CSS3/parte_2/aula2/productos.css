@@ -3,14 +3,14 @@ header {
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+    display: inline;                /*coloca texto sin salto de linea | display: block; por default ocupa el espacio disponible*/
+    margin: 0 0 0 15px;             /*desplazamiento de margen interno parametros arriba der abajo izq*/
 }
 
 nav a{
-    text-transform: uppercase;
+    text-transform: uppercase;      /*especifica el cambio entre mayúsculas y minúsculas*/
     color: #000000;
-    font-weight: bold;
+    font-weight: bold;              /*texto en negrita*/
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none;          /*quita formato o decoración por default*/
 }

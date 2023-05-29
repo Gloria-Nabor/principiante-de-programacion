@@ -1,11 +1,12 @@
 body{
-    background: #CCCCCC;
+    background: #CCCCCC;  /*presentación, color del fondo en HEX*/
 }
 
 p{
-    text-align: center;
+    text-align: center;     /*alineación del texto, CENTRAR*/
 }
 
 em strong{
-    color:red;
+    color:red;            /*presentación, color del texto en inglés*/
+
 }

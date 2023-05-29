@@ -28,25 +28,26 @@ nav a{
     text-decoration: none;
 }
 
-.productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+.productos{                 /*selector de clase productos*/
+    width: 940px;           /*optimo para screen con ancho de 980px*/
+    margin: 0 auto;         /*margen lateral automatico*/
+    padding: 50px;          /*espaciado*/
 }
 
 
-.productos li{
-    display: inline-block;
+.productos li{              /*selector de clase productos de lista*/
+    display: inline-block;  /*propiedad display - elementos colocados uno al lado de otro, puede ajustarse a lo largo y ancho*/
     text-align: center;
-    width: 30%;
+    width: 30%;             /*distribucion proporcional de elementos*/
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
+    /*backgroud: #CCCCCC    auxiliar para verificar proporcion de imagenes*/
+    margin: 0 1.5%;         /*margen interno*/
+    padding: 30px 20px;     /*amplia relleno para igualar tamaño de imagen, aumentandolo el contenido del elemento*/
+    box-sizing: border-box; /*quita salto de línea, verificando el borde exterior sin rebasar el limite*/
 }
 
 
-.productos h2{
+.productos h2{              /*selector de encabezado de lista*/
     font-size: 30px;
     font-weight: bold;
 }

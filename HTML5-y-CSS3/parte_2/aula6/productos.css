@@ -28,9 +28,9 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+nav a:hover{                            /*propiedad hover captura movimiento del mouse*/
+    color: #c78c19;                   /*cambia de color al seleccionar por encima al navegar menú*/  
+    text-decoration: underline;         
 }
 
 .productos{
@@ -52,25 +52,27 @@ nav a:hover{
     border-radius: 10px;
 }
 
-.productos li:hover{
-    border-color:#c78c19;
+.productos li:hover{                /*destaca visualmente, propiedad hover, captura movimiento del puntero mouse por encima o sobre el elemento*/
+    border-color:#c78c19;           
+/*    font-size: 33px;              reubicar para mayor alcance de clase
+*/
 }
 
-.productos li:active{
+.productos li:active{               /*propiedad active captura click del mouse sobre los elementos*/
     border-color:#088c19;
 }
 
 .productos h2{
-    font-size: 30px;
+    font-size: 30px;                
     font-weight: bold;
 }
 
-.productos li:hover h2{
-    font-size: 33px;
+.productos li:hover h2{             /*selector de clase con mayor alcance, captura el pasar el cursor por un item de la lista*/
+    font-size: 33px;                /*aumenta el tamaño*/
 }
 
 .producto-descripcion{
-    font-size: 18px;
+    font-size: 18px;               
 }
 
 .producto-precio{

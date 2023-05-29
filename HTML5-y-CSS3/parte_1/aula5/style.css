@@ -3,16 +3,21 @@ body{
 }
 
 #banner{
-    width:100%;
+    width:100%;                     /*ajustar anchura del elemento*/
 }
 
-.principal{
+.principal{                         /*Referencia a la clase, creada para dar formato a texto principal*/
     background: #CCCCCC;
     padding: 20px;
 }
 
 h1{
     text-align: center;
+/*  height: 150px;	                ajustar altura - inspeccionar elementos como desarrollador
+    border: 10px solid #000000; 
+    padding: 20px;                  ajustar el margen interno del elemento, desplazamiento interno
+    margin: 40px;                   ajustar el margen externo del elemento
+*/ 
 }
 
 p{
@@ -27,27 +32,26 @@ em strong{
     font-size: 20px;
 }
 
-.diferenciales{
+.diferenciales{             /*Referencia a la clase, creada para dar formato a la sección de lista*/
     background: #FFFFFF;
-    padding: 30px;
+    padding: 30px;          /*ajuste de margen del elemento*/
 }
 
-h2{
+h2{                        
     text-align: center;
 }
 
-.items{
+.items{                     /*Referencia a la clase, creada para dar formato a items de la lista*/
     font-style: italic;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+ul{     
+    display: inline-block;      /*alineación de ajuste a texto*/
+    vertical-align: top;        /*alinea vertical hacia arriba*/
+    width: 20%;                 /*ajusta a ocupar 20% de anchura de página*/
+    margin-right: 15%;          /*margen externo derecha*/
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.imagenDiferenciales{       
+    width: 50%;           
 }
-

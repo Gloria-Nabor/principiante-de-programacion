@@ -1,23 +1,23 @@
 body{
-    background: #CCCCCC;
+    background: #CCCCCC;    /*color de fondo*/
 }
 
 #banner{
-    width:100%;
+    width:100%;             /*altera el ancho de la imagen*/
 }
 
 h1{
-    text-align: center;
+    text-align: center;     /*alinea el h1 al centro de la página*/
 }
 
 p{
-    text-align: center;
+    text-align: center;     /*alinea los párrafos al centro de la página*/
 }
 
 em strong{
-    color:red;
+    color:red;           /*color de texto*/
 }
 
 #mision{
-    font-size: 20px;
+    font-size: 20px;        /*aumenta la fuente del segundo párrafo (usa id para hacer la referencia*/
 }

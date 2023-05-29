@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html>             <!--informar al navegador la versión 5 de HTML-->
 
-<html lang="es">
+<html lang="es">            <!--propiedad lang, define el idioma-->
+
+    <head>                  <!--permite separar - etiquetas de información--> 
+
+        <meta charset="UTF-8">          <!--la etiqueta informa la propiedad charset, define el diccionario (encoding) de palabras-->
+        <title>Barbería Alura</title>   <!--define título de página-->
+        <link rel="stylesheet" href="style.css">   <!--presentar el CSS como archivo externo 'IMPORTAR'-->
+
+        <!--                            
+        <style>                      
+            p{
+            text-align: center;
+            }
+        </style>
+        -->                                         <!--alternativa para optimizar código, definir estilos CSS-->
     
-    <head>
+</head>                 
 
-        <meta charset="UTF-8"> 
-        <title>Barbería Alura</title>
-        <link rel="stylesheet" href="style.css">
-    
-    </head>
+    <body>                  <!--separar de la página - etiquetas de contenido--> 
 
-    <body>
+        <h1 style="text-align: center;background: #CCCCCC;">Sobre la Barbería Alura</h1>  <!--define título y párrafos, alineación del texto-->
+                                                                      <!--adicionar marcadores de estilos CSS 'en casacada', color de fondo-->
+        <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae lo mejor que hay en el mercado para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
 
-        <h1 style="text-align: center;">Sobre la Barbería Alura</h1>
+        <p style="font-size: 20px"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>     <!--formato del texto, : atribuir valor a propiedad (tamaño de la fuente), dar énfasis (itálico)-->
 
-        <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
-
-        <p style="font-size: 20px"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
-
-        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. La atención posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
         
     </body>
 </html>

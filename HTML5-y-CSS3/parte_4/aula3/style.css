@@ -95,6 +95,14 @@ footer{
     margin:20px;
 }
 
+/*
+main{                       elimina stilo para main y reubica propiedades a bloque de selector principal, 
+    width: 940px;
+    margin: 0 auto;    
+}
+*/
+
+
 form{
     margin: 40px 0;
 }
@@ -155,9 +163,9 @@ td,th{
     width: 100%;
 }
 
-.principal{
-    padding: 3em 0;
-    background: #FEFEFE;
+.principal{                         
+    padding: 3em 0;                 /*espacio entre encabezado y texto principal*/
+    background: #FEFEFE;        
     width: 940px;
     margin: 0 auto; 
 }
@@ -168,6 +176,24 @@ td,th{
     margin: 0 0 1em;
     clear:left;
 }
+
+/*
+.titulo-principal:first-letter{      pseudo elemento, primera letra de cada parrafo en negrita
+    font-weight: bold;
+}
+
+.titulo-principal:before{      pseudo elemento, titulo entre corchetes, abre
+    content: "[";
+}
+
+.titulo-principal:after{      pseudo elemento, titulo entre corchetes, cierra
+    content: "]";
+}
+
+p:first.line{
+    font-style: italic;             pseudo elemento, primera línea de parrafo en cursiva
+}
+*/
 
 .principal p{
     margin: 0 0 1em;
@@ -189,7 +215,8 @@ td,th{
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888)
+    background: linear-gradient(#FEFEFE, #888888)           /*agrega fondo degrado, transición de color por default horizontal*/
+  /*background: linear-gradient(45deg, orange 50%, blue, red, black)        permite radial-gradien, personalizar ángulo, más colores y proporción,90deg vertical*/
 }
 
 .mapa p{
@@ -197,37 +224,37 @@ td,th{
     text-align: center;
 }
 
-.mapa-contenido{
+.mapa-contenido{                    /*separa mapa de fondo*/
     width: 940px;
     margin: 0 auto;
 }
 
-.diferenciales{
+.diferenciales{                 
     padding: 3em 0;
-    background: #888888;
+    background: #888888;        /*fondo más obscuro*/
 }
 
-.contenido-diferenciales{
+.contenido-diferenciales{       
     width: 640px;
-    margin: 0 auto;
+    margin: 0 auto;             /*margen automático a los laterales*/
 }
 
-.lista-diferenciales{
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
+.lista-diferenciales{           
+    width: 40%;                 
+    display: inline-block;      
+    vertical-align: top;        /*alineación superior al margen*/
 }
 
-.items{
-    line-height: 1.5;
+.items{                         /*selector clase a elementos lista*/
+    line-height: 1.5;           /*espacio entre líneas*/
 }
 
-.items:before{
-    content:"★"
+.items:before{                 
+    content:"★"                /*pseudo-elemento,viñeta personalizada, propiedad before, coloca antes de cada item*/
 }
 
-.items:first-child{
-    font-weight: bold;
+.items:first-child{              /*pseudo clases, al primer elemento de lista o last-child o nth-child(3) para item 3 o (2n) para pares*/
+    font-weight: bold;              /*personaliza estilo texto*/
 }
 
 .imagen-diferenciales{

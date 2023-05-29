@@ -100,7 +100,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form legend{
+form label, form legend{    /*antes selecciona form p, fieldset sustituyó a div por mejores prácticas y usa legend*/
     display: block;
     font-size: 20px;
     margin: 0 0 10px;

@@ -1,18 +1,24 @@
 header {
     background-color: #BBBBBB;
-    padding: 20px 0;
+    padding: 20px 0;                /*rellena arriba y abajo*/
 }
 
-.caja{
+.caja{                      /*selector de clase caja, formato encabezado*/
+    position: relative;     /*mover el elemento al punto inicial fijo*/
     width: 940px;
-    position: relative;
-    margin: 0 auto;
+    top:110p;
+    margin: 0 auto;         /*margen con calculo automático en funcion de la resolución,el navegador divide entre dos y agrega la mitad en cada lado para centrar*/
 }
 
-nav{
-    position: absolute;
+nav{                        /*referencia a etiqueta de navegación*/
+    position: absolute;     /*posicionar el elemento a cualquier lugar de la página*/
     top:110px;
     right: 0;
+    /*
+    position: static;       posición predeterminada para los elementos
+    top: 20px;
+    left: 22px;
+    */
 }
 
 nav li{

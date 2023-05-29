@@ -166,6 +166,10 @@ td,th{
     font-size: 2em;
     margin: 0 0 1em;
     clear:left;
+    /*
+    color: rgba(0,0,0,0.3);                 realiza opacidad al color del texto, variación adicionada a rgb 
+    text-shadow: 2px 2px 10px red;          realiza sombreado rojo al texto 
+    */
 }
 
 .principal p{
@@ -204,6 +208,7 @@ td,th{
 .diferenciales{
     padding: 3em 0;
     background: #888888;
+  /*box-shadow: insert 0 0 30px red;        sombra interna hacia adentro en color red*/
 }
 
 .contenido-diferenciales{
@@ -231,12 +236,17 @@ td,th{
 
 .imagen-diferenciales{
     width: 60%;
-    transition: 400ms;
-    box-shadow: 10px 10px 30px 15px #000000;
+  /*
+      opacity: 0%;                              opacidad, no pasa nada de luz, no mostrará ni la imagen
+  */
+    transition: 400ms;                          /*transición menos rápida*/
+    box-shadow: 10px 10px 30px 15px #000000;  /*sombreado + ó - horizontal (der) y vertical (abajo), difuminado o enfoque solido y expansión (radio) */      
+  /*  box-shadow: 10px 10px 30px 15px #000000, -10px -10px yellow, -15px 10px rgba(50,50,50,0.5) ;  /*más sobras, separadas por comas dos sobreados adicionales*/      
+
 }
 
 .imagen-diferenciales:hover{
-    opacity: 0.3;
+    opacity: 0.3;       /*efecto al posicionar el mouse sobre la imagen*/
 }
 
 .video{
