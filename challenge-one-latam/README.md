@@ -21,6 +21,8 @@ Crea tu propio encriptador de texto, comienza hoy mismo a implementar tu Challen
      <img width="500" heigth="300" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png">
 </p>
 
+
+
 ### ¡Bienvenido al proyecto base del Encriptador de texto! 
 
 
@@ -109,3 +111,11 @@ Durante la ejecución de nuestro código, se utilizaron varios métodos en JavaS
   [Element.style](https://www.w3schools.com/jsref/dom_obj_style.asp)
   
  ---
+### ¿Quién te traerá los desafíos?
+Conoce a quienes están proponiendo este desafío para que crees tu portafolio.
+
+#### Desarrolladoras e Instructoras en Alura Latam:
+
+- Jeanmarie Quijada -  [Linkedin](https://www.linkedin.com/in/jeanmariequijada/) | [Github](https://github.com/JeanmarieAluraLatam)
+
+- Génesys Rondón    - [Linkedin](https://www.linkedin.com/in/genesysrondon914762182/) | [Github](https://github.com/genesysaluralatam)
