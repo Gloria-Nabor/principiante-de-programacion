@@ -260,9 +260,7 @@ td,th{
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {      /*selector de bloque caja y demás para ajustar tamaño*/
         width: auto;                    
     }
-    .lista-diferenciales, .imagen-diferenciales{         /*ajuste tamaño resposiva*/                       
+    .lista-diferenciales, .imagen-diferenciales{         /*ajuste tamaño resposiva*/             
         width: 100%;                                      /*Usar medidas proporcionales y layouts para ajustar el estilo de nuestra página según el tamaño de pantalla del dispositivo que acceda*/
     }
-
 }
-

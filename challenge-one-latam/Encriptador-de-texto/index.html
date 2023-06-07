@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="Logo de Alura">  <img  height= "58px" src="imagenes/logo-oracleAlura.svg"  alt="Logo de Alura LATAM">               
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">&#9432 Solo letras minúsculas y sin acentos</h6>    <!--exclamation-circle-fill-->
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>    
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Ningún mensaje fue encontrado&#10&#10Ingresa el texto que deseas encriptar o desencriptar"></textarea>
+            <div class="botones">
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<footer>    <!--info del desarrollador-->
+    <img height="58px" src="imagenes/logo-challenge.svg" alt="Logo Challenge"> 
+    <div class="copyright">Desarrollado por Gloria Nabor | 2023 </div>
+    <a href="https://www.linkedin.com/in/Gloria-Nabor"> <img src="imagenes/logo-linkedin.svg" alt="Perfil Linkedin"></a>
+    <a href="https://github.com/Gloria-Nabor"> <img width="32px" height= "32px" src="imagenes/logo-github.svg" alt="Portafolio Github"></a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
