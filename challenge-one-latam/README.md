@@ -21,9 +21,9 @@ Crea tu propio encriptador de texto, comienza hoy mismo a implementar tu Challen
      <img width="500" heigth="300" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png">
 </p>
 
+ [Modelo en Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica)
 
-
-### ¡Bienvenido al proyecto base del Encriptador de texto! 
+**¡Bienvenidas y bienvenidos (o) al proyecto Encriptador de texto!**
 
 
 ---
@@ -39,15 +39,17 @@ Crea tu propio encriptador de texto, comienza hoy mismo a implementar tu Challen
 
 ### Pasos principales:
 
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
-#### Visita la página del Desafío [¡Haciendo clic aquí!](https://www.aluracursos.com/challenges/challenge-one-logica) 📃
+**-Marca este proyecto con una estrella ⭐**
+
+**-Sigue las lecciones y las instrucciones de contenido 📚**
+
+**-Visita la página del Desafío [¡Haciendo clic aquí!](https://www.aluracursos.com/challenges/challenge-one-logica) 📃**
 
 ---
 
 ### Sprint 01: Construye un encriptador de texto con Javascript
  
- Llegó la hora de afrontar el desafío, accede al tablero en Trello de la Sprint 01  [¡Accede ahora a las tarjetas](https://trello.com/b/k9WwtdYU/g5-challenge-one-encriptador-de-texto)📅
+1) Llegó la hora de afrontar el desafío, utiliza el tablero en Trello de la Sprint 01  [¡Accede ahora a las tarjetas](https://trello.com/b/k9WwtdYU/g5-challenge-one-encriptador-de-texto)📅
 
 ---
 
@@ -61,7 +63,7 @@ Ahora puedes enviar tu proyecto y ganar una insignia exclusiva para este desafí
 
 Ve a la pestaña "Acerca" o "About" de tu proyecto en el menú de la izquierda dentro de tu repositorio de GitHub e incluye la etiqueta acorde al grupo al cual perteneces.
 
-Puedes visualizar tu proyecto y los proyectos de tus compañeros accediendo a [Repositorio base - Encriptador de texto](https://github.com/topics/challengeonecodificador5)
+En la vitrina de GitHub puedes visualizar tu proyecto y los proyectos de tus compañeros, accede al [Repositorio base - Encriptador de texto](https://github.com/topics/challengeonecodificador5)
 
 ![gif-vitrine](https://user-images.githubusercontent.com/91544872/153601047-62aee6cb-e3cf-42b3-92c3-7130c996113f.gif)
 
@@ -89,6 +91,11 @@ Puedes visualizar tu proyecto y los proyectos de tus compañeros accediendo a [R
 
 ### ¿Cómo descargar el repositorio?
 
+Si aún no estás familiarizado con Github, aquí hay algunos contenidos que pueden ayudarte:
+
+ 🔹 [Git y Github: que son y primeros pasos](https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos)
+ 🔹 [Comenzando con Git: aprendiendo a versionar](https://www.aluracursos.com/blog/comenzando-con-git)
+
 Para descargar el archivo: Puede hacer clic en el botón verde con el nombre "Code" en la parte superior derecha y luego Descargar zip/Download zip. Luego puede abrir el archivo en su editor preferido 
 
 <p align="center" >
@@ -97,11 +104,7 @@ Para descargar el archivo: Puede hacer clic en el botón verde con el nombre "Co
 
 ---
 
-### Enlaces útiles!
-#### Videos de Solución del Challenge ONE Encriptador de Texto
-
- - Parte I: [HTML y CSS](https://www.youtube.com/watch?v=oQgt8BF2wAg)
- - Parte II: [Lógica con Javascript](https://www.youtube.com/watch?v=DVjp-TJihAM)
+### ¡Enlaces útiles!
 
 Durante la ejecución de nuestro código, se utilizaron varios métodos en JavaScript, dejamos aquí algunos de ellos para facilitar sus búsquedas en el proceso de estudio
   [Includes()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) |
@@ -110,11 +113,17 @@ Durante la ejecución de nuestro código, se utilizaron varios métodos en JavaS
   [navigator.clipboard](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard) |
   [Element.style](https://www.w3schools.com/jsref/dom_obj_style.asp)
   
+  **Videos de Solución del Challenge ONE Encriptador de Texto**
+
+ - Parte I: [HTML y CSS](https://www.youtube.com/watch?v=oQgt8BF2wAg)
+ - Parte II: [Lógica con Javascript](https://www.youtube.com/watch?v=DVjp-TJihAM)
+
  ---
 ### ¿Quién te traerá los desafíos?
+
 Conoce a quienes están proponiendo este desafío para que crees tu portafolio.
 
-#### Desarrolladoras e Instructoras en Alura Latam:
+**Desarrolladoras e Instructoras en Alura Latam:**
 
 - Jeanmarie Quijada -  [Linkedin](https://www.linkedin.com/in/jeanmariequijada/) | [Github](https://github.com/JeanmarieAluraLatam)
 
